@@ -1,0 +1,4 @@
+def testFunc() {
+	ret 1 + 1;
+	string s = "";
+}
