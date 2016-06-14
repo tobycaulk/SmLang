@@ -40,9 +40,12 @@ public class Tokenizer {
 						int endIndex = beginIndex + (pattern.getPattern().length() - 1);
 						Token token = new Token(pattern, pattern.getValue(), beginIndex, endIndex);
 						tokens.add(token);
+						i += (pattern.getPattern().length() - 1);
+						break;
 					}
-					i += (pattern.getPattern().length() - 1);
-					break;
+					//If we do not explicitly break out of the pattern loop, continue with it. 
+					//This is used by the if statement with the two conditionals 
+					continue;
 				}
 			}
 		}

@@ -31,9 +31,10 @@ public class TokenizerTest {
 		System.out.println(classContents);
 		List<Token> tokens = Tokenizer.tokenizeKeywords(classContents);
 		for(Token token : tokens) {
-			//System.out.println(token.getTokenValue());
+			System.out.println(token.getTokenType() + " : " + token.getTokenValue());
 		}
 		tokens = Tokenizer.tokenizeNonKeywords(classContents, tokens);
+		System.out.println();
 		for(Token token : tokens) {
 			System.out.println(token.getTokenType() + " : " + token.getTokenValue());
 		}
