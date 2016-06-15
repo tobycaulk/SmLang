@@ -1,7 +1,7 @@
 def testFunc() {
 	int i = 0;
 	string s = "";
-	string st = "";
-	int j = 0;
+	string st = s;
+	int j = i / 1 - 2;
 	ret 1 + 1;
 }

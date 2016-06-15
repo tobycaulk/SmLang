@@ -12,7 +12,7 @@ public enum TokenType {
 	SEMICOLON(";", ";"),
 	ADDITION_OPERATOR("+", "+"),
 	SUBTRACTION_OPERATOR("-", "-"),
-	DIVISION_OPERATOR("//", "//"), 
+	DIVISION_OPERATOR("/", "/"), 
 	MULTIPLICATION_OPERATOR("*", "*"),
 	EQUALITY_OPERATOR("=", "="),
 	VAR_STRING("string", "string"),
